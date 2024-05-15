@@ -1,0 +1,5 @@
+package com.GL.StudentRegistration.entity;
+
+public class Student {
+
+}

@@ -1,0 +1,5 @@
+package com.GL.StudentRegistration.service;
+
+public interface StudentService {
+
+}

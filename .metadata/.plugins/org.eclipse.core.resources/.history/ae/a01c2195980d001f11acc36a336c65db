@@ -1,0 +1,5 @@
+package com.GL.StudentRegistration.service.impl;
+
+public class StudentServiceImpl {
+
+}

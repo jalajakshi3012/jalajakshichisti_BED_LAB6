@@ -1,0 +1,38 @@
+package com.GL.StudentRegistration.controller;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.GL.StudentRegistration.entity.Student;
+
+@Controller
+@RequestMapping("student")
+public class StudentController {
+
+	@RequestMapping("/save")
+	public String saveStudent(Student student)
+	{
+		return "Student details saved successfully";
+	}
+	
+	@RequestMapping("/update")
+	public String updateStudent(Student student) {
+		return "Student details updated successfully";
+	}
+	
+	@RequestMapping("/delete")
+	public String deleteStudent(Student student)
+	{
+		return "Student details deleted successfully";
+	}
+	
+	@RequestMapping("/list-student")
+	public List<Student> getAllStudents()
+	{
+		List<Student> list=new ArrayList<>();
+		return list;
+	}
+}

@@ -1,0 +1,5 @@
+package com.GL.StudentRegistration.security.service.impl;
+
+public class StudentDeatailsServiceImpl {
+
+}

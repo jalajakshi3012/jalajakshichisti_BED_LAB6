@@ -1,0 +1,6 @@
+package com.GL.StudentRegistration.security.repository;
+
+
+public class UserRepository ext {
+
+}

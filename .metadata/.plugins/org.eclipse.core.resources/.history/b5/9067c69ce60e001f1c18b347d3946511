@@ -1,0 +1,21 @@
+package com.GL.StudentRegistration.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
+
+import com.GL.StudentRegistration.entity.Student;
+
+
+public interface StudentService {
+	
+	public String saveStudent(Student student);
+	public Optional<Student> updateStudent(int id);
+	public String deleteStudent(int id);
+	public List<Student> getAllStudents();
+	
+
+}

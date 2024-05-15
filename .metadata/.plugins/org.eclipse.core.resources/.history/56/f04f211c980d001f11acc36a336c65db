@@ -1,0 +1,16 @@
+package com.GL.StudentRegistration.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.GL.StudentRegistration.entity.Student;
+
+@Controller
+public class StudentController {
+
+	@RequestMapping("/save")
+	public String saveStudent(Student student)
+	{
+		return "Student details saved successfully";
+	}
+}

@@ -1,0 +1,5 @@
+package com.GL.StudentRegistration.respository;
+
+public interface StudentRepository  extends JpaRepository<Student, Integer>
+
+}

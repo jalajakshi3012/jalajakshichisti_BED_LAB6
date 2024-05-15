@@ -1,0 +1,5 @@
+package com.GL.StudentRegistration.security.entity;
+
+public class Role {
+
+}

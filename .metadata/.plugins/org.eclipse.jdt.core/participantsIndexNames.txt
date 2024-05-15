@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+D:\LAb6 assignment\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3449928249.index
+\StudentRegistration\src\main\java
+D:\LAb6 assignment\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\150880022.index
+\StudentRegistration\src\main\java

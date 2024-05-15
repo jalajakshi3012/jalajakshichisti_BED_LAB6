@@ -1,0 +1,16 @@
+package com.GL.StudentRegistration.entity;
+
+import lombok.Data;
+
+@Data
+public class Student {
+
+	Integer id;
+	String firstName;
+	String lastName;
+	String course;
+	String country;
+	
+	
+	
+}

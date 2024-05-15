@@ -1,0 +1,43 @@
+package com.GL.StudentRegistration.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.GL.StudentRegistration.entity.Student;
+import com.GL.StudentRegistration.service.StudentService;
+
+@Controller
+@RequestMapping("student")
+public class StudentController {
+	
+	StudentService studentService;
+
+	@RequestMapping("/save")
+	public String saveStudent(Student student)
+	{
+		return "Student details saved successfully";
+	}
+	
+	@RequestMapping("/update")
+	public String updateStudent(Student student) {
+		return "Student details updated successfully";
+	}
+	
+	@RequestMapping("/delete")
+	public String deleteStudent(Student student)
+	{
+		return "Student details deleted successfully";
+	}
+	
+	@RequestMapping("/list-student")
+	public String getAllStudents(Model model)
+	{
+		List<Student> list=studentService.getAllStudents();
+		model.addAttribute("student", list);
+		return "list-student";
+	}
+}
