@@ -78,7 +78,7 @@ public class StudentController {
 		theModel.addAttribute("student", student);
 
 		// send over to our form
-		return "student-form";
+		return "student-formUpdate";
 	}
 
 	@RequestMapping("/delete")
